@@ -15,9 +15,4 @@ public class InstructorManager extends UserManager {
 	public void update(User user) {
 		System.out.println(user.getFirstName() + " isimli eðitmen güncellendi.");
 	}
-	
-	public void addCourse() {
-		System.out.println("Kurs eklendi.");
-	}
-
 }

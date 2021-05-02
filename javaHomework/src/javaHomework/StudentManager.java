@@ -15,9 +15,4 @@ public class StudentManager extends UserManager {
 	public void update(User user) {
 		System.out.println(user.getFirstName() + " isimli öðrenci güncellendi.");
 	}
-	
-	public void sendHomework() {
-		System.out.println("Ödev gönderildi");
-	}
-
 }
